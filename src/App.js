@@ -1,9 +1,6 @@
 import './App.css';
 
 function App() {
-  
-
-
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +8,7 @@ function App() {
         <p>A placeholder for future projects.</p>
         <img src='gfx/instagram-16.png' onClick={() => {
       window.open("http://instagram.com/146_north", "_blank");
-    }}></img>
+    }} alt="Instagram"></img>
       </header>
     </div>
   );
