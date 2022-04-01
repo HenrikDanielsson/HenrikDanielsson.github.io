@@ -1,22 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>14<span className="reverse">6</span><span className="small">.S<span className="rot45" char="E">E</span></span></h1>
+        <p>A placeholder for future projects.</p>
+        <img src='gfx/instagram-16.png' onClick={() => {
+      window.open("http://instagram.com/146_north", "_blank");
+    }}></img>
       </header>
     </div>
   );
