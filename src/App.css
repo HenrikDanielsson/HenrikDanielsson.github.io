@@ -44,7 +44,7 @@
 	transform: scale(-1, 1);
 }
 
-.rot45 {
+.rotate {
 	visibility: visible;
 	font-size: 1em;
 	position: relative;
